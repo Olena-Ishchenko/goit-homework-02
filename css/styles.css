@@ -80,7 +80,8 @@ address{font-style: normal;}
     cursor: pointer;}
 .button:hover{background:  #404BBF;}
  .button:focus {background: #404BBF; }
-    .team{background:  #F4F4FD;}  
+.team{background:  #F4F4FD;} 
+.foto-team{background: #FFF;}
     
     .footer{background:  #2E2F42;}
              

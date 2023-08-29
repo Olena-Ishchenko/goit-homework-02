@@ -22,7 +22,7 @@ h2{color:  #2E2F42;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;}
 
@@ -85,15 +85,18 @@ h2{color:  #2E2F42;
     .team{background:  #F4F4FD;}  
     
     .footer{background:  #2E2F42;}
-    .logo-footer{color:  #F4F4FD;
-        font-family: Raleway, sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 21px;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;}
-    .footer p{color:  #F4F4FD;
+             
+        .colortext-footer {
+            color:  #F4F4FD;
+                font-family: Raleway;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 21px;
+                letter-spacing: 0.54px;
+                text-transform: uppercase;
+        }
+    .footer p{color: color:  #F4F4FD;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;

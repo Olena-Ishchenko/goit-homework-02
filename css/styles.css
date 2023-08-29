@@ -43,15 +43,16 @@ h2{color:  #2E2F42;
     letter-spacing: 0.54px;
     text-transform: uppercase;}
 
-.menu-nav a{color:  #2E2F42;
+.link-nav{color:  #2E2F42;
 
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;}
-.menu-nav a:hover{color:  #404BBF;}
-.menu-nav a:focus {color: #404BBF;}
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+.link-nav:hover{color:  #404BBF;}
+.link-nav:focus {color: #404BBF;}
+address{font-style: normal;}
 .address a{color:  #434455;
     font-size: 16px;
     font-style: normal;
@@ -68,8 +69,7 @@ h2{color:  #2E2F42;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;}
-.button{border-radius: 4px;
-    background:  #4D5AE5;
+.button{background:  #4D5AE5;
     color:  #FFF;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -78,10 +78,8 @@ h2{color:  #2E2F42;
     line-height: 24px;
     letter-spacing: 0.64px;
     cursor: pointer;}
-.button:hover{border-radius: 4px;
-    background:  #404BBF;}
- .button:focus {border-radius: 4px;
-     background: #404BBF; }
+.button:hover{background:  #404BBF;}
+ .button:focus {background: #404BBF; }
     .team{background:  #F4F4FD;}  
     
     .footer{background:  #2E2F42;}
@@ -96,7 +94,7 @@ h2{color:  #2E2F42;
                 letter-spacing: 0.54px;
                 text-transform: uppercase;
         }
-    .footer p{color: color:  #F4F4FD;
+    .footer p{color: #F4F4FD;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
